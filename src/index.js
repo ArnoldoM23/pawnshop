@@ -7,30 +7,17 @@ import reduxThunk from 'redux-thunk';
 
 import App from './components/app';
 import HomePage from './components/homepage';
-import SignIn from './components/auth/signin';
-import SignUp from './components/auth/signup';
-import SignOut from './components/auth/signout';
 import Reducers from './reducers/index';
 import { AUTH_USER } from './actions/types';
-import Authenticate from './components/auth/require_auth';
 
 const createStoreWithMiddleware = applyMiddleware(reduxThunk)(createStore);
 const store = createStoreWithMiddleware(Reducers)
-const token = localStorage.getItem('token');
-
-if (token) {
-  // we need to update application state
-  store.dispatch({ type: AUTH_USER });
-}
 
 ReactDOM.render(
 	<Provider store={store}>
 		<Router history={browserHistory}>
 			<Route path='/' component={App} >
 				<IndexRoute component={HomePage} />
-				<Route path='/signin' component={SignIn} />
-				<Route path='/signup' component={SignUp}/>
-				<Route path='/signout' component={ SignOut } />
 			</Route>
 		</Router>
 	</Provider>, document.querySelector('.container'));
