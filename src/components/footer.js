@@ -14,12 +14,7 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className='col span-1-of-2'>
-					<ul className='social-links'>
-						<li><a href='#'><i className='ion-social-facebook'></i></a></li>
-						<li><a href='#'><i className='ion-social-twitter'></i></a></li>
-						<li><a href='#'><i className='ion-social-googleplus'></i></a></li>
-						<li><a href='#'><i className='ion-social-instagram'></i></a></li>
-					</ul>
+					
 				</div>
 			</div>
 			<div className='row'>
