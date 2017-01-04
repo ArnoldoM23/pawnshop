@@ -5,8 +5,8 @@ import * as actions from '../actions';
 
 class SectionPlans extends Component {
 
-	handleFormSubmit({name, email, message, find_us}){
-		console.log('this is from ', name, email, message, find_us);
+	handleFormSubmit(message){
+		this.props.sendEmail(message);
 	}
 
 
@@ -73,12 +73,8 @@ class SectionPlans extends Component {
 	}
 }
 
-function mapStateToProps(state) {
-	return {};
-}
-
 
 export default reduxForm({
 	form: 'sendEmail',
 	fields: ['name', 'email', 'message', 'find_us']
-}, mapStateToProps, actions)(SectionPlans);
+}, null, actions)(SectionPlans);
