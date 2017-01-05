@@ -1,4 +1,6 @@
+
 (function(){
+	'use strict'
 	const mailer = require('nodemailer');
 	const mailConfig = {
 		host: 'smtp.gmail.com',
@@ -6,13 +8,13 @@
 	  secure: true, // use SSL
 	  // remember to removed password and email
 	  auth: {
-	      user: '@gmail.com',
-	      // pass: ''
+	      user: process.env.USER || '@gmail.com',
+	      pass: process.env.PASSWORD || ''
 	  }
 	};
 	const transporter = mailer.createTransport(mailConfig);
 	function mailSender(data, cb) {
 		transporter.sendMail(data, cb);
-	}
+	};
 	module.exports = mailSender;
 })()
