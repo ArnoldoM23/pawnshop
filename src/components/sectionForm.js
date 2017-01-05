@@ -9,8 +9,6 @@ class SectionPlans extends Component {
 		this.props.sendEmail(message);
 	}
 
-
-
 	render(){
 		const { handleSubmit, fields: { name, email, message, find_us } } = this.props;
 		return (

@@ -9,8 +9,6 @@ const path = require('path');
 const mailer = require('nodemailer');
 const mailSender = require('./services/mailService');
 const routeCtrl = require('./routeCtrls/mailCtrl');
-
-
 const publicPath = path.resolve(__dirname, 'src');
 
 app.use(morgan('combined'));

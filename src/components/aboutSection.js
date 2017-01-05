@@ -15,4 +15,3 @@ const SectionFeature = () => {
 }
 
 export default SectionFeature;
-

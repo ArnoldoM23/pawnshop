@@ -12,18 +12,17 @@ const SectionMeals = () => {
 			<ul className='meals-showcase clearfix'>
 				<li>
 					<figure className='meal-photo'>
-						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay1.jpg' alt='Korean bibimbap with egg and vegetables' /></a>
+						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay1.jpg' alt='ebay1' /></a>
 					</figure>
 				</li>
 				<li>
 					<figure className='meal-photo'>
-						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay2.jpg' alt='Simple italian pizza with cherry tomatoes ' /></a>
+						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay2.jpg' alt='ebay2' /></a>
 					</figure>
 				</li>
 				<li>
 					<figure className='meal-photo'>
-						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay3.jpg' alt='Chicken breast steak with vegetables  
-							// Autumn pumpkin soup' /></a>
+						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay3.jpg' alt='ebay3' /></a>
 					</figure>
 				</li>
 				<li>
@@ -35,22 +34,22 @@ const SectionMeals = () => {
 			<ul className='meals-showcase clearfix'>
 				<li>
 					<figure className='meal-photo'>
-						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay5.jpg' alt='Paleo beef steak with vegetables' /></a>
+						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay5.jpg' alt='ebay5' /></a>
 					</figure>
 				</li>
 				<li>
 					<figure className='meal-photo'>
-						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay6.jpg' alt='Healthy baguette with egg and vegetables' /></a>
+						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay6.jpg' alt='ebay6' /></a>
 					</figure>
 				</li>
 				<li>
 					<figure className='meal-photo'>
-						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay7.jpg' alt='Burger with cheddar and bacon ' /></a>
+						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay7.jpg' alt='ebay7' /></a>
 					</figure>
 				</li>
 				<li>
 					<figure className='meal-photo'>
-						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay8.jpg' alt='Granola with cherries and strawberries' /></a>
+						<a href='http://stores.ebay.com/PawnBargain'><img src='../styles/img/ebay8.jpg' alt='ebay8' /></a>
 					</figure>
 				</li>
 			</ul>
@@ -60,12 +59,3 @@ const SectionMeals = () => {
 }
 
 export default SectionMeals;
-
-
-
-// 
-// 
-// 
-// 
-
-// (see image numbers in the assets folder)

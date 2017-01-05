@@ -29,4 +29,3 @@ const SectionSteps = () => {
 }
 
 export default SectionSteps;
-

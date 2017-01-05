@@ -1,4 +1,3 @@
-
 (function(){
 	'use strict'
 	const mailer = require('nodemailer');
@@ -12,7 +11,6 @@
 	      pass: process.env.PASSWORD || ''
 	  }
 	};
-	console.log()
 	const transporter = mailer.createTransport(mailConfig);
 	function mailSender(data, cb) {
 		transporter.sendMail(data, cb);
