@@ -8,10 +8,11 @@
 	  secure: true, // use SSL
 	  // remember to removed password and email
 	  auth: {
-	      user: process.env.USER || '@gmail.com',
+	      user: process.env.EMAIL || '@gmail.com',
 	      pass: process.env.PASSWORD || ''
 	  }
 	};
+	console.log()
 	const transporter = mailer.createTransport(mailConfig);
 	function mailSender(data, cb) {
 		transporter.sendMail(data, cb);

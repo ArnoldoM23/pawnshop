@@ -6,8 +6,8 @@
 			const emailMessage = req.body;
 			console.log('message from user: ', emailMessage);
 			const data = {
-					from: '@gmail.com',
-					to: '@yahoo.com',
+					from: 'arnoldomunoz23@gmail.com',
+					to: 'arnoldomunoz23@yahoo.com',
 					subject: 'Mail from website'
 				}
 			let emailTemplate= `<h1>You have a message from ${emailMessage.name}</h1>
