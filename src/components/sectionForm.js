@@ -7,6 +7,9 @@ class SectionPlans extends Component {
 
 	handleFormSubmit(message){
 		this.props.sendEmail(message);
+		const textarea = document.getElementsByName('message');
+		textarea.value = '';
+		console.log(textarea)
 	}
 
 	render(){
