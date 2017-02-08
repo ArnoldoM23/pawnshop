@@ -4,10 +4,9 @@
 	const mailCtrl = {
 		sendMail (req, res) {
 			const emailMessage = req.body;
-			console.log('message from user: ', emailMessage);
 			const data = {
-					from: 'arnoldomunoz23@gmail.com',
-					to: 'arnoldomunoz23@yahoo.com',
+					from: 'example@gmail.com',
+					to: 'example@yahoo.com',
 					subject: 'Mail from website'
 				}
 			let emailTemplate= `<h1>You have a message from ${emailMessage.name}</h1>
